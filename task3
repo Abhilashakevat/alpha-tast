@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+</head>
+<body style="text-align:center; font-family:sans-serif; padding-top:100px;">
+
+  <h2>Music Player</h2>
+  <audio id="audio" src="retro-lounge-389644.mp3"></audio>
+
+  <div style="margin-top:20px;">
+    <button onclick="playPause()" style="padding:10px;">pause</button><br><br>
+    <input type="range" id="progress" value="0" onchange="seek()" style="width:80%;">
+    <br><br>
+    <label>Volume:</label>
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="1" onchange="setVolume()">
+  </div>
+
+  <script>
+    const audio = document.getElementById("audio");
+    const progress = document.getElementById("progress");
+    const volume = document.getElementById("volume");
+
+    function playPause() {
+      if (audio.paused) audio.play();
+      else audio.pause();
+    }
+
+    audio.addEventListener("timeupdate", () => {
+      progress.value = (audio.currentTime / audio.duration) * 100;
+    });
+
+    function seek() {
+      audio.currentTime = (progress.value / 100) * audio.duration;
+    }
+
+    function setVolume() {
+      audio.volume = volume.value;
+    }
+  </script>
+
+</body>
+</html>
