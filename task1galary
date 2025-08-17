@@ -1,0 +1,183 @@
+#page1
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style type="text/css">
+.main{
+   width:1500px;
+   height:1000px;
+   background-color:gray;
+}
+.row1{
+   width:1500px;
+   height:50px;
+   background-color:gray;
+}
+.row2{
+   width:1500px;
+   height:50px;
+   background-color:black;
+}
+.btn1{
+   width:100px;
+   height:40px;
+   background-color:gray;
+}
+</style>
+</head>
+<body>
+<div class="row1">
+<h1 style text-align:"center;">WELCOME TO MY GALLERY</h1></div>
+
+<div class="row2">
+<a href="all.html"><button class="btn1">ALL</button></a>
+<a href="animal.html"><button class="btn1">ANIMAL</button></a>
+<a href="birds.html"><button class="btn1">BIRDS</button></a>
+<a href="flowers.html"><button class="btn1">FLOWERS</button></a>
+</div>
+
+<div class="main">
+<img src="welcome.jpg" alt="welcome image" height="990px",width="1050px">
+</div>
+</body>
+</html>
+#page2
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5x4 Grid with Color Classes</title>
+  <style>
+    .color1 {background-color: #f2f2f2; }
+    .color2 { background-color: #e6e6e6; }
+    .color3 { background-color: #d9d9d9; }
+    .color4 { background-color: #cccccc; }
+    .color5 { background-color: #bfbfbf; }
+  </style>
+</head>
+<body>
+
+<!-- Main Grid Frame -->
+<div style="
+  width:1600px;
+  height:1000px;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border:2px solid #000;
+">
+
+  <!-- 20 Sections with only color via classes -->
+  <div class="color1" style="border:1px solid #333; text-align:center;">
+<img src="animal2.jpg"></div>
+
+  <div class="color2" style="border:1px solid #333; text-align:center;"><img src="animal1.jpg"></div>
+
+  <div class="color3" style="border:1px solid #333; text-align:center;"><img src="animal3.jpg" ></div>
+  <div class="color4" style="border:1px solid #333; text-align:center;"><img src="animal4.jpg"></div>
+
+  <div class="color5" style="border:1px solid #333; text-align:center;"><img src="animal5.jpg"></div>
+  <div class="color1" style="border:1px solid #333; text-align:center;"><img src="animal6.jpg"></div>
+  <div class="color2" style="border:1px solid #333; text-align:center;"><img src="animal7.jpg"></div>
+  <div class="color3" style="border:1px solid #333; text-align:center;"><img src="animal8.jpg"></div>
+
+  <div class="color4" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color5" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color1" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color2" style="border:1px solid #333; text-align:center;"></div>
+
+  <div class="color3" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color4" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color5" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color1" style="border:1px solid #333; text-align:center;"></div>
+
+  <div class="color2" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color3" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color4" style="border:1px solid #333; text-align:center;"></div>
+  <div class="color5" style="border:1px solid #333; text-align:center;"></div>
+
+</div>
+
+</body>
+</html>
+#page3
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5x4 Grid with Color Classes</title>
+  <style>
+    .color1 {background-color: #f2f2f2; }
+    .color2 { background-color: #e6e6e6; }
+    .color3 { background-color: #d9d9d9; }
+    .color4 { background-color: #cccccc; }
+    .color5 { background-color: #bfbfbf; }
+  </style>
+</head>
+<body>
+
+<!-- Main Grid Frame -->
+<div style="
+  width:1600px;
+  height:1000px;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border:2px solid #000;
+">
+
+  <!-- 20 Sections with only color via classes -->
+  <div class="color1" style="border:1px solid #333; text-align:center;">
+<img src="b2.jpg" alt="rose flower"></div>
+
+  <div class="color2" style="border:1px solid #333; text-align:center;"><img src="b1.jpg"></div>
+
+  <div class="color3" style="border:1px solid #333; text-align:center;"><img src="b3.jpg" ></div>
+  <div class="color4" style="border:1px solid #333; text-align:center;"><img src="b4.jpg"></div>
+
+  <div class="color5" style="border:1px solid #333; text-align:center;"><img src="b5.jpg"></div>
+  <div class="color1" style="border:1px solid #333; text-align:center;"><img src="b6.jpg"></div>
+  <div class="color2" style="border:1px solid #333; text-align:center;"><img src="b7.jpg"></div>
+  <div class="color3" style="border:1px solid #333; text-align:center;"><img src="b8.jpg"></div>
+</div>
+
+</body>
+</html>
+#page4
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5x4 Grid with Color Classes</title>
+  <style>
+    .color1 {background-color: #f2f2f2; }
+    .color2 { background-color: #e6e6e6; }
+    .color3 { background-color: #d9d9d9; }
+    .color4 { background-color: #cccccc; }
+    .color5 { background-color: #bfbfbf; }
+  </style>
+</head>
+<body>
+
+<!-- Main Grid Frame -->
+<div style="
+  width:1600px;
+  height:1000px;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border:2px solid #000;
+">
+
+  <!-- 20 Sections with only color via classes -->
+  <div class="color1" style="border:1px solid #333; text-align:center;">
+<img src="f2.jpg"></div>
+
+  <div class="color2" style="border:1px solid #333; text-align:center;"><img src="f1.jpg"></div>
+
+  <div class="color3" style="border:1px solid #333; text-align:center;"><img src="f3.jpg" ></div>
+  <div class="color4" style="border:1px solid #333; text-align:center;"><img src="f4.jpg"></div>
+</div>
+
+</body>
+</html>
